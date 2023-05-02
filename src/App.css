@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0af140;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+.game-info {
+  margin-left: 20px;
+}
+
+
+/***********************
+MdiQuickLink
+***********************/
+.mdiQuickLinkContainer {
+  display: flex;
+}
+.mdiQuickLinkText {
+}
+.mdiQuickLinkTitle {
+}
+/***********************
+MdiHCCContainerText
+***********************/
+.mdiHCCContainer {
+  display:flex;
+}
+.mdiHCCContainerText {
+  color: rgb(12, 12, 12);
+  margin: auto;
+  padding: o,o,o,o;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
 }
