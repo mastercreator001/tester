@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0af140;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+.game-info {
+  margin-left: 20px;
+}
+
+
+/***********************
+MdiQuickLink
+***********************/
+.mdiQuickLinkContainer {
+  display: flex;
+}
+.mdiQuickLinkText {
+}
+.mdiQuickLinkTitle {
+}
+
+/***********************
+MdiHCCContainerText
+***********************/
+.mdiHCCContainer {
+  display:flex;
+}
+.mdiHCCContainerText {
+  color: rgb(12, 12, 12);
+  margin: auto;
+  padding: o,o,o,o;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+
+.mainTitleSubContainer {
+  color:text-white px-5 mt-3;
+  font-weight: 700; 
+  background-color: rgba(3, 3, 3, 0.2); 
+  padding: 2px;
+}
+
+
+
+/***********************
+flipper
+***********************/
+.flipperLink {
+  background-image: url(&quot;https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1365&amp;q=80&quot;); 
+  background-size: cover;
+}
+
+.mdiFlipperText2 {
+  color: #fff;
+}
+
+.mdiFlipperText2 {
+  color: #fff;
+  opacity: 0.8;
+}
